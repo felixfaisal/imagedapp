@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+
+input[type="file"] {
+  font-size: 15px;
+  color: black;
+}
+
+body {
+  background: ivory;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #044335;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d24;
+}
